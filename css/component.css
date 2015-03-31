@@ -1,0 +1,51 @@
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* PrismSlider */
+.cache {
+  display: none;
+}
+
+.prism-slider {
+  width: 1200px;
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 80%;
+  position: relative;
+}
+
+.prism-slider canvas {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navigation {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  z-index: 1;
+}
+
+.navigation li {
+  border: 1px solid #eceff1;
+  width: 14px;
+  height: 14px;
+  margin: 0 5px;
+  background: #37474f;
+  border-radius: 7px;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.navigation .active {
+  background: #eceff1;
+}
